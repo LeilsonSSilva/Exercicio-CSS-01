@@ -1,0 +1,59 @@
+h1 {
+    color: dodgerblue;
+    background-color: honeydew;
+    border: solid 2px rgb(245, 115, 115); 
+}
+
+div {
+    background-color: rgb(195, 122, 255);
+    border: solid 3px royalblue;
+    margin: 9px;
+    padding: 10px;
+}
+
+p {
+    color: rgb(255, 255, 255);
+    
+    background-color: rgb(13, 168, 142);
+    
+    border: solid 2px red;
+    
+    margin-top: 5px;
+    margin-bottom: 9px;
+    margin-left: 88px;
+    margin-right: 54px;
+    
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+
+/*estiliza um id*/
+#ultima-caixa {
+    background-color: blue;
+}
+
+/*estiliza uma class*/
+.caixa {
+    background-color: brown;
+}
+
+/*estiliza uma tag*/
+a {
+    text-decoration: none;
+}
+
+/*estiliza uma tag dentro de outra*/
+div a {
+    text-decoration: overline;
+}
+
+/*estiliza mais de uma tag ao mesmo tempo (separados por vírgula)*/
+/*
+
+div, a {
+    text-decoration: none;
+}
+
+*/
